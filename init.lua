@@ -12,6 +12,11 @@ vim.o.backup = false
 vim.o.undofile = true
 vim.o.termguicolors = true
 
+-- proxy
+-- vim.env.http_proxy = "http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128"
+-- vim.env.https_proxy = "http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128"
+
+
 -- Leader key
 vim.g.mapleader = " "
 
